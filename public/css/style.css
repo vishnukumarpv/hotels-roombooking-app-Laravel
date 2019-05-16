@@ -1,0 +1,1058 @@
+nav.main-nav {
+    border-bottom: solid 0.3em #f00;
+    background: #fff !important;
+}
+
+section.home-img {
+    height: 518px;
+    height: 89vh;
+    color: #fff;
+    position: relative;
+    background: url('/images/cover.jpg') no-repeat;
+    background-size: cover;
+}
+
+ul.search-room {
+    background: #fff;
+    /* height: 99px; */
+    /* border-top: solid 1px #cccbcb; */
+    border-bottom: solid 1px #cccbcb;
+    /* position:  absolute; */
+    bottom: 0;
+    width: 100%;
+}
+
+ul.search-room li {
+    border-right: solid 1px #c3c0c0;
+}
+
+ul.search-room li:last-child {
+    border-right: none;
+}
+
+.city-search input {
+    width: 100%;
+    float: right;
+    border: none;
+    border-bottom: solid 0.08em #cac4c4;
+    font-size: 2em;
+    color: #f00;
+    outline: none;
+}
+
+.city-search small {
+    float: right;
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+}
+
+.room-d .rating-c {
+    position: absolute;
+    top: 239px;
+    left: 11px;
+}
+
+.room-d .card-body {
+    padding: 3px 11px;
+}
+
+.room-d p.card-text {
+    color: #8a8383;
+    margin-bottom: 0.2em;
+    min-height: 55px;
+    text-transform:  capitalize;
+}
+
+.price {
+    color: #f00;
+    font-size: 2.3rem;
+    position:  relative;
+}
+
+.card.room-d {
+    box-shadow: 3px 4px 7px 0px #f3eded;
+    width: 100%;
+    margin:  auto;
+    margin-bottom: 32px;
+    max-width: 360px;
+    height: auto;
+}
+
+section.partner-with-us {
+    /* background: #F1EDEE; */
+}
+
+section.explore-emi {
+    background: #fff;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+.filter-card nav {
+    background-color: #fff;
+}
+
+.filter-card nav {
+    padding: 0;
+}
+
+.filter-card li.nav-item {
+    padding: 12px 12px;
+}
+
+.s-date span {
+    font-size: 3.5em;
+    display: block;
+    line-height: 1em;
+    font-weight: 300;
+}
+
+.s-date {
+    color: #887474;
+    width: 100%;
+}
+
+li.nav-item.city-s {
+    padding-right: 2%;
+    padding-top: 1%;
+}
+
+button.full-btn {
+    border: none;
+    outline: none;
+    background: #f00;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    cursor:  pointer;
+    min-height: 100px;
+}
+
+form.book_f label {
+    position: relative;
+    padding-left: 12px;
+    width: 100%;
+}
+
+form.book_f label span.day {
+    font-size: 3em;
+    font-weight: 200;
+}
+
+form.book_f label span.month {
+    position: absolute;
+    top: 0;
+    font-size: 1.9em;
+    left: 74px;
+    font-weight: 500;
+}
+
+form.book_f label span.year {
+    position: absolute;
+    bottom: -4px;
+    left: 74px;
+    color: #ef9a9a;
+}
+
+.border-form {
+    border: solid 1.2px #c7c5c5;
+    border-radius: 2px;
+}
+
+ul.amenities {
+    columns: 2;
+    list-style: none;
+}
+
+ul.reviews {
+    list-style: none;
+    padding-left: 1em;
+}
+
+ul.reviews h4 {
+    width: 60%;
+    display: inline-block;
+    color: #1ec12c;
+    font-size: 1em;
+}
+
+ul.reviews li p {
+    font-size: 0.8em;
+    /* font-style:  italic; */
+    margin-left: 0.9em;
+    color: #969292;
+    font-weight: 600;
+    line-height: 1;
+}
+
+form.book_f label.amount {
+    font-size: 3em;
+    line-height: 1;
+    padding-left: 23px;
+    font-weight: 300;
+    border-bottom: solid 3.5px #f00;
+    height: 100%;
+}
+
+form.book_f label.amount span {
+    font-size: 0.5em;
+    width: 100%;
+    display: block;
+    margin-left: -10px;
+}
+
+form.book_f label.amount span.aed {
+    text-align: right;
+    padding-right: 24px;
+}
+
+footer {
+    background: #fff;
+    width: 100%;
+}
+
+.room-d .thumb {
+    height: 273px;
+    background: #f7acac;
+}
+
+.room-d .thumb img {
+    height: 100%;
+    width: 100%;
+}
+
+section.home-img ul.search-room {
+    position: absolute;
+}
+
+/*Date picker*/
+.square {
+    width: 14.28571%;
+    float: left
+}
+
+*,:after,:before {
+    box-sizing: border-box
+}
+
+.datepicker {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color: #fff;
+    color: #424b53;
+    font-size: 16px;
+    line-height: 14px;
+    overflow: hidden;
+    right: 0;
+    top: 87px;
+    position: absolute;
+    z-index: 2;
+}
+
+.datepicker--closed {
+    box-shadow: 0 15px 30px 10px transparent;
+    max-height: 0
+}
+
+.datepicker--open {
+    box-shadow: 0 15px 30px 10px rgba(0,0,0,.08);
+    max-height: 900px
+}
+
+@media screen and (max-width: 49em) {
+    .datepicker--open {
+        box-shadow:none;
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%
+    }
+}
+
+.datepicker__wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+/*     background: #fff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxNiAxOCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBpZD0iYSIgZD0iTTAgMTcuMzExaDE1Ljc1NFYuMTE1SDB6Ii8+CiAgICA8L2RlZnM+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLjE0OCkiPgogICAgICAgICAgICA8bWFzayBpZD0iYiIgZmlsbD0iI2ZmZiI+CiAgICAgICAgICAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNhIi8+CiAgICAgICAgICAgIDwvbWFzaz4KICAgICAgICAgICAgPHBhdGggZmlsbD0iIzAwQ0E5RCIgZD0iTTE0LjQ2NSAxNi4yMTVIMS4yOWEuMTk2LjE5NiAwIDAgMS0uMTk0LS4xOTN2LTguNjloMTMuNTYydjguNjlhLjE5Ni4xOTYgMCAwIDEtLjE5My4xOTN6TTEuMjkgMi45NThoMS4wMTN2LjU2M2MwIC44MTcuNjY0IDEuNDgyIDEuNDgxIDEuNDgyLjgxOCAwIDEuNDgyLS42NjUgMS40ODItMS40ODJ2LS41NjNoNS4wNDZ2LjU2M2MwIC44MTcuNjY1IDEuNDgyIDEuNDgyIDEuNDgyczEuNDgyLS42NjUgMS40ODItMS40ODJ2LS41NjNoMS4xODljLjEwNSAwIC4xOTMuMDg5LjE5My4xOTN2My4xNDJIMS4wOTZWMy4xNTFjMC0uMTA0LjA4OS0uMTkzLjE5NC0uMTkzek0zLjM0IDEuNTk2YS40NDQuNDQ0IDAgMCAxIC44ODcgMHYxLjkyNWEuNDQ0LjQ0NCAwIDAgMS0uODg3IDBWMS41OTZ6bTguMDEgMGEuNDQ0LjQ0NCAwIDAgMSAuODg2IDB2MS45MjVhLjQ0NC40NDQgMCAwIDEtLjg4NyAwVjEuNTk2em0zLjExNC4yNjZoLTEuMTl2LS4yNjZjMC0uODE3LS42NjQtMS40ODItMS40ODEtMS40ODItLjgxNyAwLTEuNDgyLjY2NS0xLjQ4MiAxLjQ4MnYuMjY2SDUuMjY2di0uMjY2QzUuMjY2Ljc4IDQuNjAyLjExNCAzLjc4NC4xMTRjLS44MTcgMC0xLjQ4MS42NjUtMS40ODEgMS40ODJ2LjI2NkgxLjI5Qy41NzkgMS44NjIgMCAyLjQ0IDAgMy4xNTJ2MTIuODdjMCAuNzExLjU3OSAxLjI5IDEuMjkgMS4yOWgxMy4xNzVhMS4yOSAxLjI5IDAgMCAwIDEuMjktMS4yOVYzLjE1MmExLjI5IDEuMjkgMCAwIDAtMS4yOS0xLjI5eiIgbWFzaz0idXJsKCNiKSIvPgogICAgICAgIDwvZz4KICAgICAgICA8cGF0aCBmaWxsPSIjMDBDQTlEIiBkPSJNMy4xOTQgMTAuOTk4aDEuMzU3VjkuNjQySDMuMTk0ek01Ljg2NCAxMC45OThoMS4zNTdWOS42NDJINS44NjR6TTguNTM0IDEwLjk5OEg5Ljg5VjkuNjQySDguNTM0ek0xMS4yMDQgMTAuOTk4aDEuMzU2VjkuNjQyaC0xLjM1NnpNMy4xOTQgMTMuOTRoMS4zNTd2LTEuMzU3SDMuMTk0ek01Ljg2NCAxMy45NGgxLjM1N3YtMS4zNTdINS44NjR6TTguNTM0IDEzLjk0SDkuODl2LTEuMzU3SDguNTM0ek0xMS4yMDQgMTMuOTRoMS4zNTZ2LTEuMzU3aC0xLjM1NnoiLz4KICAgIDwvZz4KPC9zdmc+Cg==) no-repeat 17px/16px; */
+}
+
+.datepicker__input {
+    background: transparent;
+    /* height:48px; */
+    /* color:#35343d; */
+    /* font-size:12px; */
+    /* outline:none; */
+    /* padding:4px 30px 2px; */
+    /* width:100%; */
+    /* word-spacing:5px; */
+    /* border:0; */
+}
+
+.datepicker__input:focus {
+    outline: none
+}
+
+.datepicker__input:-moz-placeholder,.datepicker__input:-ms-input-placeholder,.datepicker__input::-moz-placeholder,.datepicker__input::-webkit-input-placeholder {
+    color: #35343d
+}
+
+.datepicker__dummy-wrapper {
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.datepicker__dummy-wrapper--no-border.datepicker__dummy-wrapper {
+    margin-top: 15px;
+    border: 0
+}
+
+.datepicker__dummy-wrapper--is-active {
+    /* border:1px solid #00ca9d */
+}
+
+.datepicker__dummy-input,.datepicker_vi_inp {
+    color: #35343d;
+    padding-top: 0;
+    font-size: 17px;
+    float: left;
+    height: 100%;
+    text-indent: 5px;
+    padding: 4px 30px 2px;
+    */width: -webkit-calc(50% + 4px);
+    width: calc(47% + 4px);
+}
+
+@media screen and (max-width: 30em) {
+    .datepicker__dummy-input {
+        text-indent:0;
+        text-align: center
+    }
+}
+
+.datepicker__dummy-input:first-child {
+    width: -webkit-calc(50% - 4px);
+    width: calc(50% - 4px);
+    text-indent: 20px;
+}
+
+.datepicker__dummy-input--is-active {
+    color: #00ca9d
+}
+
+.datepicker__dummy-input--is-active::-webkit-input-placeholder {
+    color: #00ca9d
+}
+
+.datepicker__dummy-input--is-active::placeholder {
+    color: #00ca9d
+}
+
+.datepicker__dummy-input--is-active::-moz-placeholder {
+    color: #00ca9d
+}
+
+.datepicker__dummy-input--is-active:-ms-input-placeholder {
+    color: #00ca9d
+}
+
+.datepicker__dummy-input--is-active:-moz-placeholder {
+    color: #00ca9d
+}
+
+.datepicker__month-day {
+    visibility: visible;
+    will-change: auto;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    height: 40px;
+    padding-top: 15px
+}
+
+.datepicker__month-day--invalid-range {
+    background-color: rgba(0,202,157,.3);
+    color: #f3f5f8;
+    cursor: not-allowed;
+    position: relative
+}
+
+.datepicker__month-day--invalid {
+    color: #f3f5f8;
+    cursor: not-allowed
+}
+
+.datepicker__month-day--allowed-checkout:hover,.datepicker__month-day--valid:hover {
+    background-color: #fff;
+    color: #00ca9d;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 0 10px 3px rgba(66,75,83,.4)
+}
+
+.datepicker__month-day--disabled {
+    color: #f3f5f8;
+    cursor: not-allowed;
+    pointer-events: none;
+    position: relative
+}
+
+.datepicker__month-day--selected {
+    background-color: rgb(245, 24, 24);
+    color: #fff;
+}
+
+.datepicker__month-day--selected:hover {
+    background-color: #fff;
+    color: #00ca9d;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 0 10px 3px rgba(66,75,83,.4)
+}
+
+.datepicker__month-day--today {
+    background-color: #d7d9e2;
+    color: #999
+}
+
+.datepicker__month-day--first-day-selected,.datepicker__month-day--last-day-selected {
+    background: #ff0000;
+    color: #fff;
+}
+
+.datepicker__month-day--allowed-checkout {
+    color: #999
+}
+
+.datepicker__month-day--out-of-range {
+    color: #f3f5f8;
+    cursor: not-allowed;
+    position: relative;
+    pointer-events: none
+}
+
+.datepicker__month-day--valid {
+    cursor: pointer;
+    color: #999
+}
+
+.datepicker__month-day--hidden {
+    visibility: hidden;
+    color: #fff;
+    pointer-events: none
+}
+
+.datepicker__month-button {background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjE0IiB2aWV3Qm94PSIwIDAgOCAxNCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iIzAwQ0E5RCIgc3Ryb2tlLXdpZHRoPSIxLjUiIGQ9Ik0xLjM2OCAxTDYuNjYgNy4wOTIgMSAxMy41MTIiLz4KPC9zdmc+Cg==) no-repeat 100%/8px;cursor: pointer;display: inline-block;height: 60px;width: 60px;}
+
+.datepicker__month-button--prev {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    margin-left: -523px;
+}
+
+.datepicker__month-button--next {
+    float: right
+}
+
+.datepicker__month-button--locked {
+    opacity: .2;
+    cursor: not-allowed
+}
+
+.datepicker__inner {
+    padding: 20px;
+    float: left
+}
+
+@media screen and (max-width: 49em) {
+    .datepicker__inner {
+        padding:0
+    }
+}
+
+@media screen and (min-width: 49em) {
+    .datepicker__months {
+        width:650px
+    }
+}
+
+@media screen and (max-width: 49em) {
+    .datepicker__months {
+        margin-top:92px;
+        height: -webkit-calc(100% - 92px);
+        height: calc(100% - 92px);
+        position: absolute;
+        left: 0;
+        top: 0;
+        overflow: scroll;
+        right: 0;
+        bottom: 0
+    }
+}
+
+.datepicker__months:before {
+    background: #d7d9e2;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 1px
+}
+
+@media screen and (max-width: 49em) {
+    .datepicker__months:before {
+        display:none
+    }
+}
+
+.datepicker__month {
+    font-size: 12px;
+    float: left;
+    width: 50%;
+    padding-right: 10px
+}
+
+@media screen and (max-width: 49em) {
+    .datepicker__month {
+        width:100%;
+        padding-right: 0;
+        padding-top: 45px
+    }
+
+    .datepicker__month:last-of-type {
+        padding-top: 0;
+        padding-left: 0;
+        margin-top: 35px
+    }
+}
+
+@media screen and (min-width: 30em) {
+    .datepicker__month:last-of-type {
+        padding-right:0;
+        padding-left: 10px
+    }
+}
+
+.datepicker__month-caption {
+    height: 2.5em;
+    vertical-align: middle
+}
+
+.datepicker__month-name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -40px;
+    padding-bottom: 17px;
+    pointer-events: none;
+    text-align: center
+}
+
+@media screen and (max-width: 49em) {
+    .datepicker__month-name {
+        margin-top:-25px;
+        margin-bottom: 0;
+        position: absolute;
+        width: 100%
+    }
+}
+
+.datepicker__week-days {
+    height: 2em;
+    vertical-align: middle
+}
+
+.datepicker__week-row {
+    border-bottom: 5px solid #fff;
+    height: 38px
+}
+
+@media screen and (max-width: 49em) {
+    .datepicker__week-row {
+        box-shadow:0 13px 18px -8px rgba(0,0,0,.07);
+        height: 25px;
+        left: 0;
+        top: 65px;
+        position: absolute;
+        width: 100%
+    }
+}
+
+.datepicker__week-name {
+    width: 14.28571%;
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+    text-align: center
+}
+
+.datepicker__close-button {
+    font-size: 21px;
+    margin-top: 0;
+    z-index: 4;
+    position: fixed;
+    left: 7px;
+    top: 5px
+}
+
+.datepicker__clear-button,.datepicker__close-button {
+    appearence: none;
+    background: transparent;
+    border: 0;
+    color: #00ca9d;
+    cursor: pointer;
+    font-weight: 700;
+    outline: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.datepicker__clear-button {
+    font-size: 25px;
+    height: 40px;
+    margin: 4px -2px 0 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px
+}
+
+.datepicker__tooltip {
+    background-color: #2d3047;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-top: -22px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 3
+}
+
+.datepicker__tooltip:after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #2d3047;
+    bottom: -4px;
+    content: "";
+    left: 50%;
+    margin-left: -4px;
+    position: absolute
+}
+
+.-overflow-hidden {
+    overflow: hidden
+}
+
+.-is-hidden {
+    display: none
+}
+
+@media screen and (max-width: 49em) {
+    .-hide-up-to-tablet {
+        display:none
+    }
+}
+
+@media screen and (min-width: 49em) {
+    .-hide-on-desktop {
+        display:none
+    }
+}
+
+/*Date picker*/
+.search-room .rooms {
+    color: #000;
+    position: relative;
+    width: 100%;
+    display: flex;
+    /* flex-direction:  column; */
+    flex: 1;
+    text-align: center;
+}
+
+.search-room .rooms .select-list {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    background: #fff;
+    font-size: 1.5em;
+    top: -60%;
+    border-radius: 2px;
+}
+
+.search-room .rooms .select-list li {
+    padding: 18px 4px;
+    border: none;
+    border-bottom: solid 1px #efeded;
+    list-style: none;
+    transition: background 0.3s;
+}
+
+.search-room .rooms .select-list li:hover {
+    background: #f00;
+    color: #fff;
+    border: none;
+}
+
+.city-search {
+    position: relative;
+    display: block;
+    height: 70px;
+    width: 85%;
+    float: right;
+}
+
+.city-search ul {
+    cursor: pointer;
+    list-style: none;
+    border-radius: 4px;
+    color: #000;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100%;
+    z-index: 99999;
+    padding: 0;
+}
+
+.city-search ul li {
+    padding: 3px 12px;
+    background: #fffdfd;
+    border: none;
+    border-bottom: solid 1px #f1f1f1;
+    text-align: left;
+    transition: all 0.50s;
+}
+
+.city-search ul li span {
+    width: 100%;
+    display: block;
+    text-align: right;
+    color: #bdb8b8;
+}
+
+.city-search ul li:hover {
+    font-weight: 600;
+}
+
+/*dropdown*/
+.btn-group {
+    min-width: 160px;
+    height: 40px;
+    position: relative;
+    margin: 10px 1px;
+    display: inline-block;
+    vertical-align: middle;
+    a {
+        &: hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.dropdown-toggle {
+    color: #636b6f;
+    min-width: 160px;
+    padding: 10px;
+    text-transform: none;
+    font-weight: 300;
+    margin-bottom: 7px;
+    border: 0;
+    background-image: linear-gradient(#009688, #009688), linear-gradient(#D2D2D2, #D2D2D2);
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 0;
+    &:hover {
+        background: #e1e1e1;
+        cursor: pointer;
+    }
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+}
+
+.dropdown-menu > li > a {
+    padding: 10px 30px;
+    display: block;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #333333;
+    white-space: nowrap;
+    text-decoration: none;
+    &:hover {
+        background: #efefef;
+        color: #409FCB;
+    }
+}
+
+.dropdown-menu > li {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin: 0
+}
+
+.caret {
+    display: relative;
+    width: 0;
+    position: relative;
+    top: 10px;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    float: right;
+}
+
+datepicker_vi_inp {
+}
+
+.datepicker_vi_inp span.day {
+    width: 100%;
+    display: block;
+    line-height: 1;
+    font-size: 53px;
+    top: 5px;
+}
+
+.datepicker_vi_inp span.month {
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+
+label.datepicker_vi_inp:first-child:after {
+    content: '';
+    width: 46px;
+    position:  absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin:  auto;
+    background: #fff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxNiAxOCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBpZD0iYSIgZD0iTTAgMTcuMzExaDE1Ljc1NFYuMTE1SDB6Ii8+CiAgICA8L2RlZnM+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLjE0OCkiPgogICAgICAgICAgICA8bWFzayBpZD0iYiIgZmlsbD0iI2ZmZiI+CiAgICAgICAgICAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNhIi8+CiAgICAgICAgICAgIDwvbWFzaz4KICAgICAgICAgICAgPHBhdGggZmlsbD0iIzAwQ0E5RCIgZD0iTTE0LjQ2NSAxNi4yMTVIMS4yOWEuMTk2LjE5NiAwIDAgMS0uMTk0LS4xOTN2LTguNjloMTMuNTYydjguNjlhLjE5Ni4xOTYgMCAwIDEtLjE5My4xOTN6TTEuMjkgMi45NThoMS4wMTN2LjU2M2MwIC44MTcuNjY0IDEuNDgyIDEuNDgxIDEuNDgyLjgxOCAwIDEuNDgyLS42NjUgMS40ODItMS40ODJ2LS41NjNoNS4wNDZ2LjU2M2MwIC44MTcuNjY1IDEuNDgyIDEuNDgyIDEuNDgyczEuNDgyLS42NjUgMS40ODItMS40ODJ2LS41NjNoMS4xODljLjEwNSAwIC4xOTMuMDg5LjE5My4xOTN2My4xNDJIMS4wOTZWMy4xNTFjMC0uMTA0LjA4OS0uMTkzLjE5NC0uMTkzek0zLjM0IDEuNTk2YS40NDQuNDQ0IDAgMCAxIC44ODcgMHYxLjkyNWEuNDQ0LjQ0NCAwIDAgMS0uODg3IDBWMS41OTZ6bTguMDEgMGEuNDQ0LjQ0NCAwIDAgMSAuODg2IDB2MS45MjVhLjQ0NC40NDQgMCAwIDEtLjg4NyAwVjEuNTk2em0zLjExNC4yNjZoLTEuMTl2LS4yNjZjMC0uODE3LS42NjQtMS40ODItMS40ODEtMS40ODItLjgxNyAwLTEuNDgyLjY2NS0xLjQ4MiAxLjQ4MnYuMjY2SDUuMjY2di0uMjY2QzUuMjY2Ljc4IDQuNjAyLjExNCAzLjc4NC4xMTRjLS44MTcgMC0xLjQ4MS42NjUtMS40ODEgMS40ODJ2LjI2NkgxLjI5Qy41NzkgMS44NjIgMCAyLjQ0IDAgMy4xNTJ2MTIuODdjMCAuNzExLjU3OSAxLjI5IDEuMjkgMS4yOWgxMy4xNzVhMS4yOSAxLjI5IDAgMCAwIDEuMjktMS4yOVYzLjE1MmExLjI5IDEuMjkgMCAwIDAtMS4yOS0xLjI5eiIgbWFzaz0idXJsKCNiKSIvPgogICAgICAgIDwvZz4KICAgICAgICA8cGF0aCBmaWxsPSIjMDBDQTlEIiBkPSJNMy4xOTQgMTAuOTk4aDEuMzU3VjkuNjQySDMuMTk0ek01Ljg2NCAxMC45OThoMS4zNTdWOS42NDJINS44NjR6TTguNTM0IDEwLjk5OEg5Ljg5VjkuNjQySDguNTM0ek0xMS4yMDQgMTAuOTk4aDEuMzU2VjkuNjQyaC0xLjM1NnpNMy4xOTQgMTMuOTRoMS4zNTd2LTEuMzU3SDMuMTk0ek01Ljg2NCAxMy45NGgxLjM1N3YtMS4zNTdINS44NjR6TTguNTM0IDEzLjk0SDkuODl2LTEuMzU3SDguNTM0ek0xMS4yMDQgMTMuOTRoMS4zNTZ2LTEuMzU3aC0xLjM1NnoiLz4KICAgIDwvZz4KPC9zdmc+Cg==) no-repeat 17px/16px;
+    }
+
+.book_room .datepicker__dummy-wrapper label.datepicker_vi_inp:after {
+}
+
+.book_room {
+    padding: 4px 0px;
+}
+
+.more-rooms {
+    background: #f3f9ff;
+    padding: 11px 14px;
+    position:  relative;
+    height: 53px;
+}
+
+ 
+
+.add_rooms_ {
+    position:  absolute;
+    width: 100%;
+    top: -23px;
+    z-index: 999;
+    background: #fff;
+    padding: 9px 3px;
+    border: solid 1px #e4b9b9;
+    border-radius: 2px;
+}
+
+.rooms_guests {
+    position:  relative;
+}
+
+.add_rooms_ span.close_r {
+    position:  absolute;
+    right: 13px;
+    z-index: 999;
+    top: 0;
+}
+
+.addedrooms {
+    padding: 14px 6px;
+    background: #fff4f4;
+    font-size: 1.3em;
+    margin-bottom: 21px;
+}
+
+form.book_f .more-rooms label, .more-rooms select {
+    width: 47%;
+    float:  left;
+    display:  block;
+}
+
+button.full-btn:disabled {
+    background: #f5cccc;
+}
+
+ 
+
+.book-head {
+    height: 450px;
+}
+
+.image-show img {
+    height: 100%;
+    /* border-bottom: solid 3.5px #f00; */
+    width: 100%;
+}
+
+.-book-btn {
+    position:  absolute;
+    width:  100%;
+    bottom: 0;
+    margin-bottom: 0;
+    left: 0;
+}
+ 
+
+.row {
+    margin-left:  0;
+    margin-right: 0;
+}
+
+.book-head > div {
+    padding: 0;
+}
+
+.addedrooms p {
+    margin: 0;
+}
+
+.bt-red {
+    background: #f00;
+    border-radius: 0;
+    color: #fff;
+    border-color: #f00;
+}
+
+.bt-red:hover {
+    background: #ef2617;
+    color: #fff;
+}
+
+.price span {
+    font-size: 0.33em;
+    display:  block;
+    font-weight: 600;
+    position:  absolute;
+    left: -8px;
+}
+
+.room-d .card-title {
+    min-height: 37px;
+    margin-top: 5px;
+}
+
+.room-d a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.offer-r del {
+    font-size: 11px;
+    color: #1da205;
+}
+
+button.bt-load {
+    width:  100%;
+    background: #fbf7f7;
+    color: #d28282;
+    padding: 15px 2px;
+    border-top-left-radius:  0;
+    border-top-right-radius: 0;
+}
+
+button.bt-load:focus {box-shadow: none;}
+
+button.bt-load:hover {
+    background: #f1e7e7;
+}
+
+.datepicker__header {
+    position:  relative;
+}
+
+.book-head .image-show {
+    border-bottom: solid 3.5px #f00;
+}
+
+.add_rooms_ .add_r_wr {
+    max-height: 281px;
+    overflow-y: scroll;
+    margin-bottom: 9px;
+}
+
+.coupon_inp input {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    height: 36px;
+    font-weight: 600;
+    color: #89baef;
+}
+
+.coupon_inp span {
+    position:  absolute;
+    right: 0;
+    z-index: 100;
+    display:  block;
+    background: #ddd;
+    padding: 3px 6px;
+    border-radius: 6px;
+    font-size: 11px;
+    margin: 6px 4px;
+    cursor:  pointer;
+    transition: background 0.4s ease-in;
+}
+.coupon_inp span:hover {
+    background: #ff0000;
+    color:#fff;
+}
+
+.input-group-addon {
+    background: #ef591d;
+    padding: 7px 5px;
+    color: #fff;
+    min-width: 23px;
+}
